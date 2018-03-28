@@ -7,7 +7,8 @@ def getThreadtitle(threadId):
  html=urlopen("https://community.emc.com/thread/"+str(threadId))
  bsObj=BeautifulSoup(html)
  title=bsObj.title.get_text()
- title=title.strip("EMC Community Network - ECN: ")
+ title=title.strip("EMC Community Network - DECN")
+ title=title.strip(": ")
  print(title+"\n")
  output.write(title+"\n")
 
