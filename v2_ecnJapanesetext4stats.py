@@ -19,7 +19,7 @@ def getEcnstats(threadId):
  hour=time[0]
  minute=time[1]
  hour=int(hour)
- summertime=1
+ summertime=0
  if textlist[5].count("AM") and hour != 12:
   hour=hour+17-summertime
  else:

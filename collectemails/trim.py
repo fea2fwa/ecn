@@ -1,4 +1,4 @@
-with open('users.txt', encoding='utf-8') as rf:
+with open('PEPortal_Users.txt', encoding='utf-8') as rf:
     with open('namelist4SQL.txt', 'w', encoding='utf-8') as wf:
         i=0
         for row in rf:
