@@ -12,7 +12,7 @@ userNo = {}
 userNoFinal = {}
 necpattern = 'jp.nec.com'
 
-with open('Q32018.txt', encoding='utf-8') as f:
+with open('Q42018.txt', encoding='utf-8') as f:
     for row in f:
         columns = row.rstrip().split('@')
         domain = columns[1]
@@ -29,7 +29,7 @@ with open('Q32018.txt', encoding='utf-8') as f:
     domain_count(questionNo)
 
 
-with open('Q22018.txt', encoding='utf-8') as f2:
+with open('Q42018.txt', encoding='utf-8') as f2:
     for row in f2:
         address = row.rstrip()
 
